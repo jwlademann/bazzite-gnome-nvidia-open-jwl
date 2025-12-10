@@ -20,7 +20,7 @@ dnf5 -y install blueman blueman-nautilus
 # dnf5 -y install package
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
-dnf5 -y copr enable lukenukem/asus-linux
+dnf5 -y copr enable jwlademann/asusctl
 dnf5 -y install asusctl asusctl-rog-gui 
 dnf5 -y copr enable starfish/howdy-beta
 dnf5 -y install howdy howdy-gtk
