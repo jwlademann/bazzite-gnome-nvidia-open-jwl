@@ -23,7 +23,7 @@ dnf5 -y install blueman blueman-nautilus
 dnf5 -y copr enable jwlademann/asusctl
 dnf5 -y install asusctl asusctl-rog-gui 
 dnf5 -y copr enable jwlademann/gnome-settings-daemon
-dnf5 -y install gnome-settings-daemon-49.1-1.fc43.jwl.x86_64 
+dnf5 -y install gnome-settings-daemon-49.1-2.fc43.jwl.x86_64 
 dnf5 -y copr enable starfish/howdy-beta
 dnf5 -y install howdy howdy-gtk
 
