@@ -25,7 +25,7 @@ dnf5 -y install asusctl asusctl-rog-gui
 dnf5 -y copr enable jwlademann/gnome-settings-daemon
 dnf5 -y install gnome-settings-daemon-49.1-2.fc43.jwl.x86_64
 dnf5 -y copr enable jwlademann/alsa-lib
-dnf5 -y install alsa-lib-1.2.15.2-1.fc43.jwl.x86_64 alsa-lib-1.2.15.2-1.fc43.jwl.i686
+dnf5 -y install alsa-ucm-1.2.15.2-1.fc43.jwl.noarch
 dnf5 -y copr enable starfish/howdy-beta
 dnf5 -y install howdy howdy-gtk
 
