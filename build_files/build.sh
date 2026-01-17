@@ -22,12 +22,13 @@ dnf5 -y install blueman blueman-nautilus
 # dnf5 -y copr disable ublue-os/staging
 dnf5 -y copr enable lukenukem/asus-linux
 dnf5 -y install asusctl asusctl-rog-gui
+dnf5 -y copr disable lukenukem/asus-linux
 dnf5 -y copr enable jwlademann/gnome-settings-daemon
 dnf5 -y install gnome-settings-daemon-49.1-3.fc43.jwl.x86_64
-dnf5 -y copr enable jwlademann/alsa-lib
-dnf5 -y install alsa-ucm-1.2.15.2-2.fc43.jwl.noarch
+dnf5 -y copr disable jwlademann/gnome-settings-daemon
 dnf5 -y copr enable starfish/howdy-beta
 dnf5 -y install howdy howdy-gtk
+dnf5 -y copr disable starfish/howdy-beta
 
 #### Example for enabling a System Unit File
 
