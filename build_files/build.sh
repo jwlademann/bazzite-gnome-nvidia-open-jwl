@@ -13,6 +13,7 @@ set -ouex pipefail
 # dnf5 install -y tmux
 dnf5 -y install gparted
 dnf5 -y install blueman blueman-nautilus
+dnf5 -y install clamav clamav-update
 
 # Use a COPR Example:
 #
@@ -33,3 +34,4 @@ dnf5 -y copr disable starfish/howdy-beta
 #### Example for enabling a System Unit File
 
 # systemctl enable podman.socket
+systemctl enable clamav-update
