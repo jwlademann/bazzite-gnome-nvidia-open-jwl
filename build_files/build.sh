@@ -13,7 +13,7 @@ set -ouex pipefail
 # dnf5 install -y tmux
 dnf5 -y install gparted
 dnf5 -y install blueman blueman-nautilus
-dnf5 -y install btrbk
+dnf5 -y install btrbk mbuffer
 
 # Use a COPR Example:
 #
