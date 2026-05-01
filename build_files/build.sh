@@ -24,9 +24,9 @@ dnf5 -y install btrbk mbuffer
 dnf5 -y copr enable lukenukem/asus-linux
 dnf5 -y install asusctl asusctl-rog-gui
 dnf5 -y copr disable lukenukem/asus-linux
-dnf5 -y copr enable jwlademann/gnome-settings-daemon
-dnf5 -y install gnome-settings-daemon-49.1-4.fc43.jwl.x86_64
-dnf5 -y copr disable jwlademann/gnome-settings-daemon
+# dnf5 -y copr enable jwlademann/gnome-settings-daemon
+# dnf5 -y install gnome-settings-daemon-49.1-4.fc43.jwl.x86_64
+# dnf5 -y copr disable jwlademann/gnome-settings-daemon
 dnf5 -y copr enable starfish/howdy-beta
 dnf5 -y install howdy howdy-gtk
 dnf5 -y copr disable starfish/howdy-beta
