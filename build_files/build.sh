@@ -14,7 +14,7 @@ set -ouex pipefail
 dnf5 -y install gparted
 dnf5 -y install blueman blueman-nautilus
 dnf5 -y install btrbk mbuffer
-dnf5 -y install qemu libvirt
+dnf5 -y install @virtualization
 
 # Use a COPR Example:
 #
